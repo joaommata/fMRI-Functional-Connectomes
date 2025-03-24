@@ -1,53 +1,56 @@
-# NeuroProject
+# 🧠 Functional Connectomes
+This repository contains a Jupyter Notebook titled `FunctionalConnectomes.ipynb`, focusing on the analysis and modeling of functional connectomes within neurobiological networksFunctional connectomes represent the dynamic patterns of neural interactions and are crucial for understanding brain function and behavior
 
-This project is focused on neural network analysis and implementation. The main code and analysis are contained in the Jupyter Notebook file `NeuroProject.ipynb`.
+## 📖 Overview
+The notebook provides an unsupervised approach to learn dynamic affinities between neurons in live, behaving animal. It employs pairwise non-linear affinities between neuronal traces from brain-wide calcium activity, organized by non-negative tensor factorization (NTF. Each factor specifies groups of neurons most likely interacting during inferred intervals, facilitating the revelation of dynamic functional connectome. This method allows for the identification of neural motifs active during different experimental stages, such as stimulus application or spontaneous behavior.
 
-## Getting Started
+## ✨ Features
 
-### Prerequisites
+- **Dynamic Affinity Learning:* Utilizes unsupervised learning techniques to capture time-varying neuronal interaction.
+- **Non-negative Tensor Factorization (NTF):* Applies NTF to organize neuronal activity data, highlighting functional motif.
+- **Community Detection:* Implements weighted community detection to infer dynamic functional connectome.
 
-Make sure you have the following installed:
-- Python 3.x
-- Jupyter Notebook
-- Required Python libraries (listed in `requirements.txt`)
+## 🚀 Getting Started
 
-### Installation
+To explore the analyses and models presented:
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/joaommata/NeuroProject.git
-    ```
-2. Navigate to the project directory:
-    ```bash
-    cd NeuroProject
-    ```
-3. Install the required libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/joaommata/Functional-Connectomes.git
+   ``
 
-### Usage
+
 
-To run the Jupyter Notebook:
-1. Open Jupyter Notebook:
-    ```bash
-    jupyter notebook
-    ```
-2. In the Jupyter interface, navigate to the `NeuroProject.ipynb` file and open it.
+2. **Install Dependencies:**
+   Ensure you have Python and Jupyter Notebook installed. Install necessary packages using:
+   ```bash
+   pip install -r requirements.txt
+   ``
 
-### Contents
+
 
-- `NeuroProject.ipynb`: Main notebook containing the code and analysis.
-- `requirements.txt`: List of required Python libraries.
+3. **Run the Notebook:**
+   Navigate to the repository directory and launch Jupyter Notebook:
+   ```bash
+   jupyter notebook FunctionalConnectomes.ipynb
+   ``
 
-### Contributing
+
 
-If you would like to contribute to this project, please fork the repository and submit a pull request.
+## 🛠️ Usae
 
-### License
+The notebook is structured to guide you through the process of loading neuronal activity data, applying NTF, and interpreting the resulting functional connectoe. Detailed explanations and code cells are provided for each sep.
 
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+## 🤝 Contributng
 
-### Acknowledgments
+Contributions are weloe. Please fork the repository and submit a pull request with your enhancemnts.
 
-- Any acknowledgments or references to third-party resources.
+## 📄 Licnse
+
+This project is licensed under the MIT Liense.
+
+## 🙏 Acknowledgents
+
+This work is inspired by methodologies for learning dynamic representations of functional connectomes in neurobiological newors.
+
+For more information, refer to the associated researchpaper: 
